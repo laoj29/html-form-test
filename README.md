@@ -35,17 +35,14 @@ This is the first programming project for the CreativeWorx internship.
 
 These changes above are to enable the 3rd-party mail server.
 
-* Third, modify the file "sendmail.ini" under the folder "sendmail" as following.
+* Second, need to modify the file "php.ini" of the wamp server as following.
 > [mail function]<br />
 > ; For Win32 only.<br />
 > ; http://php.net/smtp<br />
 > ; SMTP = localhost<br />
 > ; http://php.net/smtp-port<br />
 > ; smtp_port = 25<br />
-
-Explanation:
-* Choose the corresponding smtp server name and port number to the mailbox. For example, the smtp server name for Gmail is smtp.gmail.com, and the port number is 465 or 587.
-* Set an email address as the sender, and its corresponding password.
+> 
 
 ### Implementation
 * Input a gmail address, then click "Submit". If it is not a valid email address, an alert window will pop out.
