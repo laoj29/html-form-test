@@ -18,10 +18,9 @@ This is the first programming project for the CreativeWorx internship.
 * First, copy the folder "sendmail" under the path of the wamp server, for example, C:\wamp\sendmail. Since Windows 7 doesn't come with a mail server, have to use a 3rd-party software served as a mail server.
 
 * Second, need to modify the file "php.ini" of the wamp server as following.
-    [mail function]<br />
-    ; For Win32 only.<br />
-    ; http://php.net/smtp<br />
-
+> [mail function]<br />
+> ; For Win32 only.<br />
+> ; http://php.net/smtp<br />
 > ; SMTP = localhost<br />
 > ; http://php.net/smtp-port<br />
 > ; smtp_port = 25<br />
@@ -43,6 +42,12 @@ These changes above are to enable the 3rd-party mail server.
 > auth_username=xxxxxx@gmail.com<br />
 > auth_password=xxxxxxxxx<br />
 > hostname=localhost<br />
+
 Explanation:
 * Choose the corresponding smtp server name and port number to the mailbox. For example, the smtp server name for Gmail is smtp.gmail.com, and the port number is 465 or 587.
 * Set an email address as the sender, and its corresponding password.
+
+### Implementation
+* Input a gmail address, then click "Submit". If it is not a valid email address, an alert window will pop out.
+* If the email has been sent successfully, "Successfully sent!" will be shown on the page. Otherwise, "Failed!" will be shown.
+* Then the submitted mailbox will receive an email from the sender (set in the file "sendmail.ini") with the required subject and body.
