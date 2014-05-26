@@ -31,8 +31,8 @@ This is the first programming project for the CreativeWorx internship.
 > 
 > ; For Unix only.  You may supply arguments as well (default: "sendmail -t -i").<br />
 > ; http://php.net/sendmail-path<br />
-> sendmail_path = "C:\wamp\sendmail\sendmail.exe -t"<br />
-These changes above are to enable the 3rd-party mail server.
+> sendmail_path = "C:\wamp\sendmail\sendmail.exe -t"
+    These changes above are to enable the 3rd-party mail server.
 
 * Third, modify the file "sendmail.ini" under the folder "sendmail" as following.
 > smtp_server=smtp.gmail.com<br />
