@@ -18,12 +18,12 @@ This is the first programming project for the CreativeWorx internship.
 * First, copy the folder "sendmail" under the path of the wamp server, for example, C:\wamp\sendmail. Since Windows 7 doesn't come with a mail server, have to use a 3rd-party software served as a mail server.
 
 * Second, need to modify the file "php.ini" of the wamp server as following.
-> [mail function]
-> ; For Win32 only.
-> ; http://php.net/smtp
-> ; SMTP = localhost
-> ; http://php.net/smtp-port
-> ; smtp_port = 25
+> [mail function]<br />
+> ; For Win32 only.<br />
+> ; http://php.net/smtp<br />
+> ; SMTP = localhost<br />
+> ; http://php.net/smtp-port<br />
+> ; smtp_port = 25<br />
 > 
 > ; For Win32 only.
 > ; http://php.net/sendmail-from
