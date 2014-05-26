@@ -36,7 +36,7 @@ This is the first programming project for the CreativeWorx internship.
 These changes above are to enable the 3rd-party mail server.
 
 * Third, modify the file "sendmail.ini" under the folder "sendmail" as following.
-> smtp_server=smtp.gmail.com
+> smtp_server=smtp.gmail.com<br />
 > smtp_port=465
 > smtp_ssl=ssl
 > auth_username=xxxxxx@gmail.com
