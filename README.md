@@ -46,6 +46,6 @@ Explanation:
 * Set an email address as the sender, and its corresponding password.
 
 ### Implementation
-* Input a gmail address, then click "Submit". If it is not a valid email address, an alert window will pop out.
+* Input a Gmail address, then click "Submit". If it is not a valid email address, an alert window will pop out.
 * If the email has been sent successfully, "Successfully sent!" will be shown on the page. Otherwise, "Failed!" will be shown.
 * Then the submitted mailbox will receive an email from the sender (set in the file "sendmail.ini") with the required subject and body.
