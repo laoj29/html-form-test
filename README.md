@@ -33,21 +33,15 @@ This is the first programming project for the CreativeWorx internship.
 > ; http://php.net/sendmail-path<br />
 > sendmail_path = "C:\wamp\sendmail\sendmail.exe -t"
 
-* Second, need to modify the file "php.ini" of the wamp server as following.
-> [mail function]<br />
-> ; For Win32 only.<br />
-> ; http://php.net/smtp<br />
-> ; SMTP = localhost<br />
-> ; http://php.net/smtp-port<br />
-> ; smtp_port = 25<br />
+* Third, modify the file "sendmail.ini" under the folder "sendmail" as following.
+> smtp_server=smtp.gmail.com<br />
+> smtp_port=465<br />
+> smtp_ssl=ssl<br />
+> auth_username=xxxxxx@gmail.com<br />
+> auth_password=xxxxxxxxx<br />
+> hostname=localhost<br />
 > 
-> ; For Win32 only.<br />
-> ; http://php.net/sendmail-from<br />
-> ; sendmail_from = you@yourdomain<br />
-> 
-> ; For Unix only.  You may supply arguments as well (default: "sendmail -t -i").<br />
-> ; http://php.net/sendmail-path<br />
-> sendmail_path = "C:\wamp\sendmail\sendmail.exe -t"
+
 
 ### Implementation
 * Input a gmail address, then click "Submit". If it is not a valid email address, an alert window will pop out.
