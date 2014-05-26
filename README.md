@@ -42,7 +42,6 @@ These changes above are to enable the 3rd-party mail server.
 > auth_username=xxxxxx@gmail.com<br />
 > auth_password=xxxxxxxxx<br />
 > hostname=localhost<br />
-
 Explanation:
 * Choose the corresponding smtp server name and port number to the mailbox. For example, the smtp server name for Gmail is smtp.gmail.com, and the port number is 465 or 587.
 * Set an email address as the sender, and its corresponding password.
