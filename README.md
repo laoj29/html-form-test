@@ -33,8 +33,6 @@ This is the first programming project for the CreativeWorx internship.
 > ; http://php.net/sendmail-path<br />
 > sendmail_path = "C:\wamp\sendmail\sendmail.exe -t"
 
-These changes above are to enable the 3rd-party mail server.
-
 * Second, need to modify the file "php.ini" of the wamp server as following.
 > [mail function]<br />
 > ; For Win32 only.<br />
@@ -43,6 +41,13 @@ These changes above are to enable the 3rd-party mail server.
 > ; http://php.net/smtp-port<br />
 > ; smtp_port = 25<br />
 > 
+> ; For Win32 only.<br />
+> ; http://php.net/sendmail-from<br />
+> ; sendmail_from = you@yourdomain<br />
+> 
+> ; For Unix only.  You may supply arguments as well (default: "sendmail -t -i").<br />
+> ; http://php.net/sendmail-path<br />
+> sendmail_path = "C:\wamp\sendmail\sendmail.exe -t"
 
 ### Implementation
 * Input a gmail address, then click "Submit". If it is not a valid email address, an alert window will pop out.
