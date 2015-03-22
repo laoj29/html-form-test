@@ -2,8 +2,7 @@ HTML Form Test
 ==============
 This is a programming test for CreativeWorx internship, which does the following:
 - Present a HTML form which contains a single text field that will accept a valid email address and a submit button.
-- Upon clicking the submit button, process the form and send an email to the submitted email address containing the following text:
-Subject: "HTML Form Test". Body: "Sent via HTML form using PHP to {submitted email address}"
+- Upon clicking the submit button, process the form and send an email to the submitted email address containing the following text:<br />Subject: "HTML Form Test". Body: "Sent via HTML form using PHP to {submitted email address}"
 
 ### Files Included
 * form_input.html
